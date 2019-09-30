@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<view class="bod">
+<view class="img">
+<image src="./images/1.jpg"/>
+</view>
+<view class="tex">
+  <text class="big">范紫瑞</text>
+    <view class="inp1">
+    <span>姓名：</span><input type="text" value="范紫瑞"/><button class="btn">拨打</button>
+    </view>
+    <view class="inp1">
+    <span>微信：</span><input type="text" value="fanzirui"/><button class="btn">复制</button>
+    </view>
+    <view class="inp1">
+    <span>Q Q：</span><input type="text" value="2554066261"/><button class="btn">复制</button>
+    </view>
+    <view class="inp1">
+    <span>职业：</span><input type="text" value="全栈开发"/><button class="btn">复制</button>
+    </view>
+</view>
+
+</view>
