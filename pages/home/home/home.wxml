@@ -1,7 +1,25 @@
 <!--pages/home/home.wxml-->
 <view class="bod">
 <view class="img">
-<image src="./images/1.jpg"/>
+
+<view class="container">
+  <view class="page-body">
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}" style="width:400px;height:270px;"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <block wx:for="{{background}}" wx:key="*this">
+          <swiper-item style="width:400px;height:270px;">
+            <view class="swiper-item {{item}}" ><image src="./images/1.jpg" style="width:400px;height:220px;"/></view>
+          </swiper-item>
+        </block>
+        
+      </swiper>
+    </view>
+    
+       
+
+  </view>
+</view>
 </view>
 <view class="tex">
   <text class="big">范紫瑞</text>
@@ -12,10 +30,28 @@
     <span>微信：</span><input type="text" value="fanzirui"/><button class="btn">复制</button>
     </view>
     <view class="inp1">
-    <span>Q Q：</span><input type="text" value="2554066261"/><button class="btn">复制</button>
+    <span>企鹅：</span><input type="text" value="2554066261"/><button class="btn"> 复制</button>
     </view>
     <view class="inp1">
     <span>职业：</span><input type="text" value="全栈开发"/><button class="btn">复制</button>
+    </view>
+    <view class="container">
+  <view class="page-body">
+    <view class="page-section">
+      <view class="page-section-spacing">
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item demo-text-1"><image src="./images/phone.png" class="pn1"></image></view>
+          <view class="flex-item demo-text-2"><image src="./images/share.png" class="pn2"></image></view>
+          <view class="flex-item demo-text-3"><image src="./images/put.png" class="pn3"></image></view>
+        </view>
+        <view class="flex-wrp" style="flex-direction:row;">
+          <view class="flex-item demo-text-1"><view class="in1">保存电话</view></view>
+          <view class="flex-item demo-text-2"><view class="in2">分享好友</view></view>
+          <view class="flex-item demo-text-3"><view class="in3">生成海报</view></view>
+        </view>
+      </view>
+    </view>
+    </view>
     </view>
 </view>
 
