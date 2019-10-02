@@ -11,13 +11,16 @@
           <swiper-item style="width:400px;height:270px;">
             <view class="swiper-item {{item}}" ><image src="./images/1.jpg" style="width:400px;height:220px;"/></view>
           </swiper-item>
+          <swiper-item style="width:400px;height:270px;">
+            <view class="swiper-item {{item}}" ><image src="./images/shu.jpg" style="width:400px;height:220px;"/></view>
+          </swiper-item>
+          <swiper-item style="width:400px;height:270px;">
+            <view class="swiper-item {{item}}" ><image src="./images/jikong.jpg" style="width:400px;height:220px;"/></view>
+          </swiper-item>
         </block>
         
       </swiper>
     </view>
-    
-       
-
   </view>
 </view>
 </view>
