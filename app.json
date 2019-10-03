@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/logs/logs",
     "pages/home/home/home",
-    "pages/logs/logs"
+    "pages/index/index"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -22,7 +23,7 @@
         "pagePath": "pages/logs/logs",
         "iconPath": "images/shou.png",
         "selectedIconPath": "images/shou.png",
-        "text": "日志"
+        "text": "市场"
       },
       {
         "pagePath": "pages/index/index",

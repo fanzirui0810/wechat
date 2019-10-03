@@ -1,6 +1,23 @@
 <!--logs.wxml-->
 <view class="container log-list">
-    <view>
-    
+  <view class="obje">
+    <view class="jcc">
+      <view class="jc">
+        <image src="./imge/cai.jpg" class="im"></image>
+        <image src="./imge/caitou.jpg" class="imm"></image>
+      </view>
+      <view class="jjc">
+      <view class="jccbt">家常菜（菜谱）</view>
+      </view>
     </view>
+    <view class="mjj">
+    <view class="mj">
+    <image src="./imge/mj.png" class="mji"></image>
+    <image src="./imge/mjtou.jpg" class="mjim"></image>
+    </view>
+    <view class="jjm">
+      <view class="mjbt">喵街</view>
+      </view>
+    </view>
+  </view>
 </view>

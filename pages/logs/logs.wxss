@@ -6,3 +6,15 @@
 .log-item {
   margin: 10rpx;
 }
+.jcc{width: 100%;height: 250px;background-color: orange;}
+.jcc>.jc{width: 500px;height: 250px;}
+.jcc>.jc>.im{height: 230px;width: 30%;margin-left: 90px;margin-top: 10px;}
+.jcc>.jc>.imm{height: 50px;width: 50px;margin-bottom: 90px;margin-left: 70px;}
+.jjc{width: 500px;height: 30px;}
+.jjc>.jccbt{margin-left: 70px;align-content: center;}
+.obje{width: 500px;height: auto;}
+.mjj{width: 100%;height: 250px;background-color: brown;margin-top: 30px;}
+.mjj>.mj>.mji{height: 230px;width: 30%;margin-left: 90px;margin-top: 10px;}
+.mjj>.mj>.mjim{height: 50px;width: 50px;margin-bottom: 90px;margin-left: 70px;}
+.jjm{width: 500px;height: 30px;}
+.jjm>.mjbt{margin-left: 70px;align-content: center;margin-top: 3px;}
