@@ -1,0 +1,22 @@
+<!--pages/myself/myself.wxml-->
+<view class="bod">
+<view class="img">
+<image src="./image/shu.jpg"></image>
+</view>
+<view class="tex">
+  <view class="q">工作经历</view>
+  <view>
+  <view class="q1"><image src="./image/y.png" class="qimg"></image> <view>2018.03</view>\n<view class="q2">北京觉硕科技有限公司</view></view>
+  </view>
+  <view>
+  <view class="q1"><image src="./image/y.png" class="qimg1"></image> <view>2016.10-2017.10</view>\n<view class="q2">北京赢美时代科技有限公司</view></view>
+  </view>
+  <view class="qq">教育经历</view>
+  <view>
+  <view class="q1"><image src="./image/y.png" class="qimg2"></image> <view>2012.09-2016.07</view>\n<view class="q2">内蒙古民族大学</view></view>
+  </view>
+  <view>
+  <view class="q1"><image src="./image/y.png" class="qimg3"></image> <view>2009.09-2012.06</view>\n<view class="q2">北京清华大学</view></view>
+  </view>
+</view>
+</view>

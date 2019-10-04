@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/myself/myself",
     "pages/logs/logs",
     "pages/home/home/home",
     "pages/index/index"
@@ -26,7 +27,7 @@
         "text": "市场"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/myself/myself",
         "iconPath": "images/shou.png",
         "selectedIconPath": "images/shou.png",
         "text": "我的"
