@@ -3,7 +3,9 @@
     "pages/myself/myself",
     "pages/logs/logs",
     "pages/home/home/home",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/logsin/logsin",
+    "pages/login/login"
     
   ],
   "window": {
